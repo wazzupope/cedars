@@ -1,0 +1,25 @@
+
+body {
+	font-family: 'Inter', Arial, sans-serif;
+	background: #f8fafc;
+	color: #222;
+	margin: 0;
+}
+
+nav {
+	font-size: 1.1rem;
+}
+
+a {
+	transition: color 0.2s;
+}
+a:hover {
+	color: #0070f3;
+}
+
+.brand {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #0070f3;
+	letter-spacing: 2px;
+}
