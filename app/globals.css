@@ -1,25 +1,63 @@
-
 body {
-	font-family: 'Inter', Arial, sans-serif;
-	background: #f8fafc;
-	color: #222;
-	margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f8fafc;
+  color: #222;
+  margin: 0;
 }
 
-nav {
-	font-size: 1.1rem;
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  color: #0070f3;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
 }
 
 a {
-	transition: color 0.2s;
+  color: #0070f3;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #0070f3;
+  transition: border-color 0.2s;
 }
 a:hover {
-	color: #0070f3;
+  border-bottom: 2px solid #005bb5;
+  color: #005bb5;
+}
+
+.cta-link {
+  background: #0070f3;
+  color: #fff !important;
+  padding: 0.5em 1.2em;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.cta-link:hover {
+  background: #005bb5;
 }
 
 .brand {
-	font-size: 2rem;
-	font-weight: bold;
-	color: #0070f3;
-	letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0070f3;
+  letter-spacing: 2px;
 }
