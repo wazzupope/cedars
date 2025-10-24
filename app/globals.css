@@ -61,3 +61,19 @@ a:hover {
   color: #0070f3;
   letter-spacing: 2px;
 }
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+  .card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
